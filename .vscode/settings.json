@@ -1,0 +1,23 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+
+    // フォーマッタをprettierに指定
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // ファイル保存時にprettierでフォーマット
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        // ファイル保存時にESLintでフォーマット
+        "source.fixAll.eslint": true
+    }
+}
